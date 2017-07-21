@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'http://github.com/coleman/LinPhoneSwift'
   s.description = 'Swift library for Linphone'
   s.requires_arc = true
-  s.source = {}
   s.platform = :ios, '8.0'
+  s.source_files = '**/*.swift'
   s.vendored_frameworks = 'ios/*.framework'
 end
