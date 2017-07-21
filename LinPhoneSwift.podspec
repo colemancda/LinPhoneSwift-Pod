@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.authors = {"Alsey Coleman Miller"=>"colemancda.github.io"}
   s.homepage = 'http://github.com/coleman/LinPhoneSwift'
-  s.description = 'Swift library for Linphone'
+  s.description = 'Linphone'
   s.requires_arc = true
   s.platform = :ios, '8.0'
   s.source_files = '**/*.swift'
