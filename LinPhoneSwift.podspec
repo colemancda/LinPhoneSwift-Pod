@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.description = 'Swift library for Linphone'
   s.requires_arc = true
   s.platform = :ios, '8.0'
-  s.source_files = '**/*.swift'
+  s.source = { :path }
   s.vendored_frameworks = 'ios/*.framework'
 end
