@@ -10,9 +10,6 @@ Pod::Spec.new do |s|
   s.platform = :ios, '8.0'
   s.source = { :path => '*' }
   s.vendored_frameworks = 'ios/*.framework'
-  s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => 'include/**' }
-  s.preserve_paths = 'include/**'
-  s.source_files = "include/**"
-  s.public_header_files = "include/**.h"
-  s.header_mappings_dir = "include"
+  s.preserve_paths = 'include/*.h', 'include/*/*.h'
+  s.xcconfig = { 'ENABLE_BITCODE' => 'NO', 'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}/LinPhoneSwift/include/**' }
 end
