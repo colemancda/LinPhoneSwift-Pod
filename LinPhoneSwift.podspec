@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source = { :path => '*' }
   s.vendored_frameworks = 'ios/*.framework'
   s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => 'include/**' }
-  s.preserve_paths = ‘include/module.modulemap’
+  s.preserve_paths = 'include/module.modulemap'
 end
