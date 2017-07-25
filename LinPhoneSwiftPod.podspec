@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'LinPhoneSwift'
+  s.name = 'LinPhoneSwiftPod'
   s.version = '1.0.0'
   s.summary = 'Linphone for Swift'
   s.license = 'MIT'
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform = :ios, '8.0'
   s.source = { :path => '*' }
   s.vendored_frameworks = 'ios/*.framework'
-  s.preserve_paths = 'include/*.h', 'include/*/*.h'
-  s.xcconfig = { 'ENABLE_BITCODE' => 'NO', 'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}/LinPhoneSwift/include/**' }
+  s.preserve_paths = 'include/**'
+  s.xcconfig = { 'ENABLE_BITCODE' => 'NO', 'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}/LinPhoneSwiftPod/include' }
 end
