@@ -9,7 +9,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform = :ios, '8.0'
   s.source = { :path => '*' }
-  s.vendored_frameworks = 'ios/*.framework'
-  s.preserve_paths = 'include/**'
+  s.ios.vendored_frameworks = 'Carthage/Build/iOS/*.framework'
   s.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
