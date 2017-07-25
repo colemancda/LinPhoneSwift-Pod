@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.source = { :path => '*' }
   s.vendored_frameworks = 'ios/*.framework'
   s.preserve_paths = 'include/**'
-  s.xcconfig = { 'ENABLE_BITCODE' => 'NO', 'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}/LinPhoneSwiftPod/include' }
+  s.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
