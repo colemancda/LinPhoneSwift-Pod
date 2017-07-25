@@ -1,0 +1,26 @@
+{
+  "iOS" : [
+    {
+      "hash" : "723ec1598807de0855f6c94b6cf8c0dfb2e430ab0acf2b6cd3a2b9a99c04ff79",
+      "name" : "MediaStreamer"
+    },
+    {
+      "hash" : "d9f9dc5066a093720a7b5083400fc1d78042caac8ffecb1ca5743e5097319a3c",
+      "name" : "LinPhoneSwift"
+    },
+    {
+      "hash" : "90f269d403c38e8ede0926b08d5adc635d2ce3dc790c796dce6dffea9a824f51",
+      "name" : "BelledonneSIP"
+    }
+  ],
+  "commitish" : "f76b5865777a1c0a9ab2316a1c43598e4f648fbc",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}
