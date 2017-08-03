@@ -1,19 +1,23 @@
 {
   "iOS" : [
     {
-      "hash" : "723ec1598807de0855f6c94b6cf8c0dfb2e430ab0acf2b6cd3a2b9a99c04ff79",
+      "hash" : "e780fd17ca7e0307c487a63da7cd65c75a041c49bb2222b50c33887de3bd07af",
       "name" : "MediaStreamer"
     },
     {
-      "hash" : "d9f9dc5066a093720a7b5083400fc1d78042caac8ffecb1ca5743e5097319a3c",
+      "hash" : "346af680005107f3d3e54f02570ebe0e05fa913aa0b1d31111907eb195874189",
+      "name" : "BelledonneToolbox"
+    },
+    {
+      "hash" : "cf8040f501b4a5ebeaaa503bb1726e657c619b48abb808e55a4689f4c85a82f7",
       "name" : "LinPhoneSwift"
     },
     {
-      "hash" : "90f269d403c38e8ede0926b08d5adc635d2ce3dc790c796dce6dffea9a824f51",
+      "hash" : "e10bf9980f416db66f6801b6f3923956feab33c344d4f1324916124808aa05fb",
       "name" : "BelledonneSIP"
     }
   ],
-  "commitish" : "f76b5865777a1c0a9ab2316a1c43598e4f648fbc",
+  "commitish" : "3dc137e9e020e4e3f2b25bead0174c200fcbb2c6",
   "watchOS" : [
 
   ],
@@ -21,6 +25,21 @@
 
   ],
   "Mac" : [
-
+    {
+      "hash" : "bc4a77048d76085b3f4945d9a2feea92ec0ba36c0c4e5fdf7d7d9c88e5ec2d0f",
+      "name" : "MediaStreamer"
+    },
+    {
+      "hash" : "c93e1f945e223aeb6f0de3de9b44bed2c86823ac9e762223c164ed1c0486674e",
+      "name" : "BelledonneToolbox"
+    },
+    {
+      "hash" : "a373262782e85256aa7f3e8685db0e755bd9b0d78fc1f23a7fc3f58dc1afac7e",
+      "name" : "BelledonneSIP"
+    },
+    {
+      "hash" : "9a7dbe82b17ee1883671c7b4e9faabb47bc9e1baf4b7bfd0193ea1731055cafe",
+      "name" : "LinPhoneSwift"
+    }
   ]
 }
