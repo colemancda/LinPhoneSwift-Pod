@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target  = '10.10'
   s.source = { :path => '*' }
   s.ios.vendored_frameworks = 'Carthage/Build/iOS/*.framework'
-  s.osx.vendored_frameworks = 'Carthage/Build/Mac/*.framework'
+  s.osx.vendored_frameworks = 'Carthage/Build/Mac/*.framework', 'Carthage/Build/Mac/*.dylib'
   s.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 end
