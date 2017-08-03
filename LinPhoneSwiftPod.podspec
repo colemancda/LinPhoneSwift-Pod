@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.homepage = 'http://github.com/coleman/LinPhoneSwift'
   s.description = 'Swift library for Linphone'
   s.requires_arc = true
-  s.ios.platform = :ios, '8.0'
+  s.ios.deployment_target  = '8.0'
+  s.osx.deployment_target  = '10.10'
   s.source = { :path => '*' }
   s.ios.vendored_frameworks = 'Carthage/Build/iOS/*.framework'
   s.osx.vendored_frameworks = 'Carthage/Build/Mac/*.framework'
